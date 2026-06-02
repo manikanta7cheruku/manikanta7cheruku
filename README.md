@@ -15,7 +15,7 @@ I can build things that matter.
 
 ## What I'm Working On
 
-**SEVEN** — Privacy-first AI voice assistant for Windows
+**SEVEN** Privacy-first AI voice assistant for Windows
 
 The idea was simple: why does a voice assistant need the internet 
 to work? SEVEN doesn't. Everything — the speech recognition, 
@@ -84,15 +84,34 @@ Git · Docker · Linux · REST APIs
 
 ---
 
-<details>
-<summary>GitHub Activity</summary>
-<br>
+## GitHub Activity
 
-![Stats](https://github-readme-stats.vercel.app/api?username=manikanta7cheruku&show_icons=true&theme=dark&hide_border=true&hide_title=true&count_private=true)
+<img 
+  src="https://streak-stats.demolab.com?user=manikanta7cheruku&theme=github-dark-dimmed&hide_border=true&date_format=j%20M%5B%20Y%5D" 
+  width="100%"
+  alt="GitHub Streak"
+/>
 
-![Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=manikanta7cheruku&layout=compact&theme=dark&hide_border=true&langs_count=6)
+<br/>
 
-</details>
+<p align="left">
+  <img 
+    src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=manikanta7cheruku&theme=github_dark&hide_border=true" 
+    height="180" 
+    alt="Languages"
+  />
+  <img 
+    src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=manikanta7cheruku&theme=github_dark&hide_border=true" 
+    height="180" 
+    alt="Stats"
+  />
+</p>
+
+<img 
+  src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=manikanta7cheruku&theme=github_dark&hide_border=true" 
+  width="100%"
+  alt="Contribution Graph"
+/>
 
 ---
 
