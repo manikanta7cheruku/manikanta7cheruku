@@ -119,4 +119,4 @@ Git · Docker · Linux · REST APIs
 
 [LinkedIn](https://linkedin.com/in/manikanta-cheruku) · 
 [Portfolio](https://manikanta7cheruku.github.io/portfolio/) · 
-manikantacheruku@gmail.com
+cherukumanikanta77@gmail.com
