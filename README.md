@@ -1,62 +1,103 @@
-# Hey, I'm Manikanta Cheruku 👋
+# Manikanta Cheruku
 
-> Building AI-first products from the ground up.
+I build things that actually work. Currently deep into 
+**SEVEN**  a voice assistant that runs entirely on your 
+machine. No cloud. No subscriptions. No data leaving your device.
 
-## 🚀 What I'm Building
+Before that, I built a live data dashboard, a founder 
+collaboration platform, and an ML app that predicts hackathon 
+team performance. I like projects that have a real reason to exist.
 
-**SEVEN** — A privacy-first AI voice assistant for Windows.  
-100% local AI. No cloud. No data leaves your machine.  
-`Electron` `React` `FastAPI` `Whisper` `Ollama` `ChromaDB`
+Final year CS student from Hyderabad. Looking for roles where 
+I can build things that matter.
 
-→ [Desktop App](https://github.com/manikanta7cheruku/NEURAL-SHELL) | 
-[Server](https://github.com/manikanta7cheruku/vii-server) | 
+---
+
+## What I'm Working On
+
+**SEVEN** — Privacy-first AI voice assistant for Windows
+
+The idea was simple: why does a voice assistant need the internet 
+to work? SEVEN doesn't. Everything — the speech recognition, 
+the language model, the memory — runs locally.
+
+Microphone → Whisper STT → Ollama LLM → ChromaDB Memory → Response
+
+
+Built with Electron + React on the frontend, FastAPI handling 
+30+ endpoints on the backend, and ChromaDB managing conversation 
+memory with vector embeddings. Has a license system, telemetry 
+tracking, and syncs select data to a Render-hosted PostgreSQL 
+server.
+
+→ [Desktop App](https://github.com/manikanta7cheruku/NEURAL-SHELL) · 
+[Server](https://github.com/manikanta7cheruku/vii-server) · 
 [Releases](https://github.com/manikanta7cheruku/seven-releases)
 
 ---
 
-## 🛠️ Tech Stack
+## Other Projects
 
-**Languages**
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
-![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=flat&logo=typescript&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat&logo=postgresql&logoColor=white)
+**[AgentFetch](https://github.com/manikanta7cheruku/agent-fetch)**  
+Pulls live weather and crypto data through real APIs. FastAPI 
+backend, React dashboard, developer CLI. Built as a foundation 
+for agentic automation with LLM integration down the line.
 
-**Frontend**
-![React](https://img.shields.io/badge/React-20232A?style=flat&logo=react&logoColor=61DAFB)
-![Electron](https://img.shields.io/badge/Electron-191970?style=flat&logo=electron&logoColor=white)
-![Tailwind](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=flat&logo=tailwind-css&logoColor=white)
+**[CoBuild](https://github.com/manikanta7cheruku/cobuild)**  
+A platform for founders to find people to build with. 
+The problem I kept running into myself.
 
-**Backend & AI**
-![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=flat&logo=fastapi)
-![Ollama](https://img.shields.io/badge/Ollama-000000?style=flat&logo=ollama&logoColor=white)
-![ChromaDB](https://img.shields.io/badge/ChromaDB-FF6B35?style=flat)
-
----
-
-## 📦 Projects
-
-| Project | Description | Stack |
-|---------|-------------|-------|
-| [SEVEN](https://github.com/manikanta7cheruku/NEURAL-SHELL) | Privacy-first local AI voice assistant | Electron, React, FastAPI, Whisper, Ollama |
-| [AgentFetch](https://github.com/manikanta7cheruku/agent-fetch) | Live weather & crypto agentic dashboard | FastAPI, React, REST APIs |
-| [CoBuild](https://github.com/manikanta7cheruku/cobuild) | Platform for founders to find co-builders | TypeScript, React |
-| [Hackathon Predictor](https://github.com/manikanta7cheruku/Hackathon-Prediction) | ML app predicting team performance | XGBoost, SHAP, Python |
+**[Hackathon Predictor](https://github.com/manikanta7cheruku/Hackathon-Prediction)**  
+End-to-end ML app that predicts how a hackathon team will 
+perform based on commit velocity, sleep patterns, and 
+communication data. Uses XGBoost with SHAP for explainability 
+so you can see *why* it made a prediction.
 
 ---
 
-## 📊 GitHub Stats
+## Stack
 
-![Manikanta's GitHub Stats](https://github-readme-stats.vercel.app/api?username=manikanta7cheruku&show_icons=true&theme=dark&hide_border=true)
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=manikanta7cheruku&layout=compact&theme=dark&hide_border=true)
+**Day to day**  
+Python · JavaScript · TypeScript · SQL
+
+**Building with**  
+React · Electron · Vite · Tailwind · FastAPI · Node.js
+
+**AI side**  
+Ollama · Whisper · ChromaDB · SentenceTransformers · 
+LangChain · XGBoost · SHAP
+
+**Data**  
+PostgreSQL · SQLite · ChromaDB (vector)
+
+**Tools**  
+Git · Docker · Linux · REST APIs
 
 ---
 
-## 📫 Connect
+## Numbers (From SEVEN)
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/manikanta-cheruku)
-[![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=flat&logo=github&logoColor=white)](https://manikanta7cheruku.github.io/portfolio/)
+- 30+ REST API endpoints
+- 4 AI models integrated in one pipeline
+- 100% local inference — zero cloud dependency
+- Runs on consumer hardware
 
-📍 Hyderabad, India &nbsp;|&nbsp; 
-💼 Open to SDE / AI Engineer roles &nbsp;|&nbsp;
-📧 [your email here]
+---
+
+<details>
+<summary>GitHub Activity</summary>
+<br>
+
+![Stats](https://github-readme-stats.vercel.app/api?username=manikanta7cheruku&show_icons=true&theme=dark&hide_border=true&hide_title=true&count_private=true)
+
+![Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=manikanta7cheruku&layout=compact&theme=dark&hide_border=true&langs_count=6)
+
+</details>
+
+---
+
+**Python** · Hyderabad · Open to SDE and AI Engineer roles
+
+[LinkedIn](https://linkedin.com/in/manikanta-cheruku) · 
+[Portfolio](https://manikanta7cheruku.github.io/portfolio/) · 
+manikantacheruku@gmail.com
