@@ -18,8 +18,8 @@ I can build things that matter.
 **SEVEN** Privacy-first AI voice assistant for Windows
 
 The idea was simple: why does a voice assistant need the internet 
-to work? SEVEN doesn't. Everything — the speech recognition, 
-the language model, the memory — runs locally.
+to work? SEVEN doesn't. Everything the speech recognition, 
+the language model, the memory runs locally.
 
 Microphone → Whisper STT → Ollama LLM → ChromaDB Memory → Response
 
