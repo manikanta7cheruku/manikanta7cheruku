@@ -21,8 +21,6 @@ The idea was simple: why does a voice assistant need the internet
 to work? SEVEN doesn't. Everything the speech recognition, 
 the language model, the memory runs locally.
 
-Microphone → Whisper STT → Ollama LLM → ChromaDB Memory → Response
-
 
 Built with Electron + React on the frontend, FastAPI handling 
 30+ endpoints on the backend, and ChromaDB managing conversation 
