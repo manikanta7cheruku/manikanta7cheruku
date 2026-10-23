@@ -1,8 +1,9 @@
 # Manikanta Cheruku
 
 I build things that actually work. Currently deep into 
-**SEVEN**  a voice assistant that runs entirely on your 
-machine. No cloud. No subscriptions. No data leaving your device.
+**SEVEN**, the layer between you and your computer. You say 
+what you want, and it happens on your PC. No cloud. No 
+subscriptions. No data leaving your device.
 
 Before that, I built a live data dashboard, a founder 
 collaboration platform, and an ML app that predicts hackathon 
@@ -15,21 +16,33 @@ I can build things that matter.
 
 ## What I'm Working On
 
-**SEVEN** Privacy-first AI voice assistant for Windows
+**SEVEN**: the layer between you and your Windows PC
 
-The idea was simple: why does a voice assistant need the internet 
-to work? SEVEN doesn't. Everything the speech recognition, 
-the language model, the memory runs locally.
+The idea was simple: why do I have to click through the same 
+apps, windows and settings every day, and why does an assistant 
+need the internet to help? SEVEN sits between you and Windows. 
+Say or type "set brightness to 100", "put Chrome and File Explorer 
+side by side" or "save this workspace as Work", and it happens in 
+milliseconds. Speech recognition, the language model and the 
+memory all run locally, and it keeps working offline.
 
-Microphone → Whisper STT → Ollama LLM → ChromaDB Memory → Response
+```
+voice / text → ears (VAD, Whisper) → brain (29-layer pipeline) → hands (Windows actions) + mouth (Piper)
+                                          ↘ local LLM via Ollama only when no instant layer can answer
+```
 
-Built with Electron + React on the frontend, FastAPI handling 
-30+ endpoints on the backend, and ChromaDB managing conversation 
-memory with vector embeddings. Has a license system, telemetry 
-tracking, and syncs select data to a Render-hosted PostgreSQL 
-server.
+- **Acts, then proves it.** Every action returns a receipt; if it failed, SEVEN says so.
+- **Remembers with evidence.** Facts live in SQLite with history and provenance, plus a ChromaDB semantic index, so it can tell you what you said, when, and what changed.
+- **Knows itself and your machine.** Abilities come from a live capability registry and an app map generated from the UI code; hardware answers come from live readings, never the model.
+
+Built with Electron + React + Tailwind on the frontend and a 
+FastAPI backend with 180+ local endpoints. Has a licensing 
+system with plans and trials, in-app updates, a feedback 
+pipeline, and syncs select data to a Render-hosted PostgreSQL 
+server. CI runs 170+ tests, linting and builds on every pull request.
 
 → [Desktop App](https://github.com/manikanta7cheruku/NEURAL-SHELL) · 
+[Docs](https://github.com/manikanta7cheruku/NEURAL-SHELL/tree/main/docs) · 
 [Server](https://github.com/manikanta7cheruku/vii-server) · 
 [Releases](https://github.com/manikanta7cheruku/seven-releases)
 
@@ -70,15 +83,17 @@ LangChain · XGBoost · SHAP
 PostgreSQL · SQLite · ChromaDB (vector)
 
 **Tools**  
-Git · Docker · Linux · REST APIs
+Git · GitHub Actions · Docker · Linux · REST APIs
 
 ---
 
 ## Numbers (From SEVEN)
 
-- 30+ REST API endpoints
-- 4 AI models integrated in one pipeline
-- 100% local inference — zero cloud dependency
+- 180+ local API endpoints
+- 29-layer brain pipeline: commands answered in milliseconds, the LLM only when needed
+- 7 local AI models working together (speech-to-text, voice activity, speaker ID, embeddings, LLM, text-to-speech, sound triggers)
+- 170+ automated tests in CI
+- 100% local inference, zero cloud dependency
 - Runs on consumer hardware
 
 ---
